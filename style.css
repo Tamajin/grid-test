@@ -1,0 +1,18 @@
+* {
+    margin: 20px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 450px);
+    grid-template-rows: repeat(3, 250px);
+    gap: 5px;
+
+       }
+
+.bloc {
+    background-color: orange;
+    
+}
