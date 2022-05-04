@@ -1,18 +1,36 @@
 * {
     margin: 20px;
     box-sizing: border-box;
-    background-color: black;
+    background-color: whitesmoke;
 }
 
+
+/*
 .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(4, 450px);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-columns: repeat(4, 250px);
     gap: 5px;
-
-       }
+}
 
 .bloc {
     background-color: orange;
-    
+    box-shadow: 2px 3px;
+}
+*/
+
+ul {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(1, 40px);
+    }
+
+li {
+    list-style-type: none;
+}
+
+.img-logo {
+    width: 100%;
+    display: block;
+    grid-column: 2fr;
 }
